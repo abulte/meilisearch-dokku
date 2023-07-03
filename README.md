@@ -35,6 +35,8 @@ dokku letsencrypt:enable
 Deploy a new version:
 
 ```
+# FIXME: can't seem to start two apps concurrently, to be digged into
+dokku ps:stop {my-meili-app}
 git push dokku main
 ```
 
