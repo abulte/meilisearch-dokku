@@ -1,3 +1,3 @@
 FROM getmeili/meilisearch
 
-# VOLUME [ "/meili_data" ]
+VOLUME [ "/meili_data" ]
