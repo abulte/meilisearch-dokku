@@ -1,3 +1,3 @@
-FROM getmeili/meilisearch:1.2.0
+FROM getmeili/meilisearch:v1.2
 
 VOLUME [ "/meili_data" ]
